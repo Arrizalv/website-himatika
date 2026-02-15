@@ -41,9 +41,9 @@ export default function TeamPage() {
 
                 <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <span className="inline-block text-blue-200 text-sm font-semibold mb-4">STRUKTUR ORGANISASI</span>
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">TIM KAMI</h1>
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">HIMATIKA UNU JOGJA</h1>
                     <p className="text-blue-100 text-lg md:text-xl max-w-3xl mx-auto">
-                        Kenali pengurus HIMATIKA UNU Yogyakarta yang berdedikasi
+                        Tahun Periode 2023/2024
                     </p>
                 </div>
             </section>

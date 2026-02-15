@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle } from 'lucide-react';
 
 const contactInfo = [
-    { icon: MapPin, title: 'Alamat', content: 'Jl. Lowanu No. 47, Sorosutan, Umbulharjo, Yogyakarta 55162' },
+    { icon: MapPin, title: 'Alamat', content: 'Jl. Ringroad Barat, Dowangan, Banyuraden, Kec. Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55293' },
     { icon: Mail, title: 'Email', content: 'himatika@unu-jogja.ac.id' },
     { icon: Phone, title: 'Telepon', content: '(0274) 123456' },
     { icon: Clock, title: 'Jam Operasional', content: 'Senin - Jumat, 08:00 - 16:00 WIB' },
@@ -65,11 +65,7 @@ export default function ContactPage() {
                             </div>
 
                             <div className="rounded-2xl overflow-hidden shadow-lg">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.1752097899!2d110.37851807580098!3d-7.787982877241397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59e61a2ca5e9%3A0x4b4d6a2b8c8d3e0f!2sUniversitas%20Nahdlatul%20Ulama%20Yogyakarta!5e0!3m2!1sid!2sid!4v1702000000000!5m2!1sid!2sid"
-                                    width="100%" height="300" style={{ border: 0 }} allowFullScreen loading="lazy"
-                                    referrerPolicy="no-referrer-when-downgrade" title="Lokasi UNU Yogyakarta"
-                                />
+                               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4709.651730008888!2d110.3279240757667!3d-7.787780877283962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57a0ec18d8fd%3A0xa0bf1c41dca2b146!2sUniversitas%20Nahdlatul%20Ulama%20Yogyakarta!5e1!3m2!1sen!2sid!4v1768147108781!5m2!1sen!2sid" width="600" height="300" style={{ border: 0 }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
 

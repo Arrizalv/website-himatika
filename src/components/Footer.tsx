@@ -10,7 +10,7 @@ const quickLinks = [
 ];
 
 const socialLinks = [
-    { href: 'https://instagram.com/himatika_unujogja', icon: Instagram, label: 'Instagram' },
+    { href: 'https://www.instagram.com/himatikaunujogja', icon: Instagram, label: 'Instagram' },
     { href: 'https://youtube.com/@himatikaunujogja', icon: Youtube, label: 'YouTube' },
     { href: 'https://linkedin.com/company/himatikaunujogja', icon: Linkedin, label: 'LinkedIn' },
 ];
@@ -44,7 +44,7 @@ export default function Footer() {
                         <div className="space-y-3">
                             <div className="flex items-start gap-3 text-slate-400">
                                 <MapPin size={18} className="mt-0.5 text-yellow-400 flex-shrink-0" />
-                                <span className="text-sm">Jl. Lowanu No. 47, Sorosutan, Umbulharjo, Yogyakarta 55162</span>
+                                <span className="text-sm">Jl. Ringroad Barat, Dowangan, Banyuraden, Kec. Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55293</span>
                             </div>
                             <div className="flex items-center gap-3 text-slate-400">
                                 <Phone size={18} className="text-yellow-400 flex-shrink-0" />
